@@ -1,9 +1,7 @@
 import  express  from "express";
 import dotenv from 'dotenv'
-
 import bodyparser from 'body-parser'
 import {db} from './config/config'
-
 import user from './module/user/userRouter'
 
 import prodect from './module/product/productRouter'
